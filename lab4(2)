@@ -1,0 +1,7 @@
+a=input('Введите список городов(больше 2-ух) через пробел')
+cities_list=a.split()
+cities_iterator=iter(cities_list)
+first_sity=next(cities_iterator)
+second_sity=next(cities_iterator)
+print("Первый город:", first_sity)
+print("Второй город:", second_sity)
